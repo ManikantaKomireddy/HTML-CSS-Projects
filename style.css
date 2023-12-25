@@ -1,0 +1,92 @@
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background:#84cfc0;
+}
+
+.wrapper{
+    width:400px;
+    background:whitesmoke;
+    border-radius: 5px;
+}
+
+.wrapper .title{
+    line-height: 100px;
+    text-align: center;
+    background:#16a085;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    font-size:35px;
+    font-weight: 600;
+    color:whitesmoke
+}
+
+.wrapper form{
+    padding:30px 20px 25px 20px;
+}
+
+.wrapper form .row{
+    height: 45px;
+    background: #16a085;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 90%;
+    outline: none;
+    padding-left: 49px;
+    border-radius: 5px;
+    border: 1px solid #16a085;
+    font-size: 16px;
+}
+
+.wrapper form .row i{
+    position: absolute;
+    width:47px;
+    height:107%;
+    background:#16a085;
+    font-size: 18px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form .pass{
+    margin: 0 0 20px 0;
+}
+.wrapper form .pass a{
+    color:#16a085;
+    font-size: 17px;
+    text-decoration: none;
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+
+.wrapper form .rowbutton input{
+    height: 45px;
+    width: 104%;
+    font-size: 18px;
+    font-weight: 500;
+    background: #16a085;
+    border: 1px solid lightgreen;
+    cursor: pointer;
+
+}
+
+.wrapper form .signup{
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper form .signup a{
+    color:#16a085;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.wrapper form .signup a:hover{
+    text-decoration: underline;
+}
+
